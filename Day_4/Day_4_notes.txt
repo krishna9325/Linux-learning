@@ -1,0 +1,7 @@
+strace: Used to monitor the interaction between processes and the linux kernel, which includes system calls, signal and process state.
+
+Command: strace ./executablefile 
+
+ltrace: Used 
+
+

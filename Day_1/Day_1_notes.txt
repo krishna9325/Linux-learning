@@ -1,0 +1,12 @@
+C/CPP code complier steps -
+
+Step 1: Preprocessing - Preprocess the C/CPP code. Include header, expand micro(.i/.ii files will get generated)
+	Command: gcc -E (.c/.cpp file) > (.i file name to write)
+	
+Step 2: Compiler - Compile the code and assemble it to (.s file).
+	command: gcc -S (.i file) > (.s file name to write)
+	
+step 3: Assembler - Create machine code (.o file)
+	command: gcc -o (.i file) > (.o file)
+	 
+step 4: Linker (Static/dynamic linking)
