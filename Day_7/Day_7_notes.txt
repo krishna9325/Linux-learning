@@ -1,0 +1,2 @@
+Run below command to get all signals 
+	command: kill -l
